@@ -21,7 +21,7 @@ a = 0
 number = 0
 
 # 双循环，以待对比元素一一与表格内容元素对比
-for i in range(45):
+for i in range(9):
     name1 = df.iloc[i, 0]
     j = 0
     for j in range(data.shape[0]):
